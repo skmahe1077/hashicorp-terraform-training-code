@@ -40,11 +40,11 @@ The repository is organized into directories, each focusing on a specific Terraf
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/skmahe1077/hashicorp-terraform-training-codetree.git
+   git clone https://github.com/skmahe1077/hashicorp-terraform-training-code.git
    ```
 2. Navigate to the folder for the specific example you want to try:  
    ```bash
-   cd hashicorp-terraform-training-codetree/1.Create_ec2_instance
+   cd hashicorp-terraform-training-code/1.Create_ec2_instance
    ```
 3. Initialize Terraform in the directory:  
    ```bash
