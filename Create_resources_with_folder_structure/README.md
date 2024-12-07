@@ -36,7 +36,7 @@ Create_resources_with_folder_structure/
 
    ```bash
    git clone https://github.com/skmahe1077/hashicorp-terraform-training-code.git
-   cd hashicorp-terraform-training-code/Create_resources_with_folder_structure
+   cd Create_resources_with_folder_structure
    ```
 
 2. **Initialize Terraform**:
