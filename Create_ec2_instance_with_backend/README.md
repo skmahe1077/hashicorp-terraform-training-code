@@ -1,7 +1,3 @@
-Here's the updated **README.md** file template with notes about modifying the AMI ID and S3 bucket name:
-
----
-
 # AWS EC2 Instances with Terraform and Remote Backend
 
 This Terraform configuration deploys two EC2 instances in the AWS **eu-west-1** region. The state file is stored remotely in an S3 bucket for collaboration and version control.
