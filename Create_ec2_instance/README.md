@@ -14,8 +14,8 @@ Before using this configuration, ensure you have the following:
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/your-repository-name.git
-   cd your-repository-name
+   https://github.com/skmahe1077/hashicorp-terraform-training-code.git
+   cd Create_ec2_instance
    ```
 
 2. **Initialize Terraform**:
@@ -45,6 +45,7 @@ Before using this configuration, ensure you have the following:
 - **Region**: `eu-west-1`
 
 ### EC2 Instances
+Here modify the ami id based on your region
 - **Instance 1**: `devec2`
   - AMI: `ami-0a422d70f727fe93e`
   - Type: `t2.medium`
@@ -57,8 +58,6 @@ Before using this configuration, ensure you have the following:
 After successful deployment, the public IPs of the instances will be displayed.
 
 ## Additional Notes
-
-- Add tags, security groups, and key pairs as required for production-grade configurations.
 - Use `terraform destroy` to remove the infrastructure if it’s no longer needed:
   ```bash
   terraform destroy
