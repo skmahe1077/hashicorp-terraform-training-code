@@ -71,6 +71,15 @@ The `backend.tf` file sets up the storage for Terraform's state file. Update the
 - Use Terraform Cloud for team collaboration.
 - Use a local backend for testing purposes.
 
+```hcl
+terraform {
+  backend "s3" {
+    bucket = "mahi-s3"
+    key    = "terraform.tfstate"
+    region = "eu-west-1"
+  }
+```
+
 ## Provider Configuration
 
 The `provider.tf` file specifies the required cloud provider. Update the provider block with the relevant details for your environment.
